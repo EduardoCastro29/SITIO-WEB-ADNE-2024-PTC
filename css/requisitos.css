@@ -72,12 +72,12 @@ body{
 }
 
 #sidebar.expandir{
-    width: 200px;
+    width: 225px;
     min-width: 200px;
 
     @media (max-width: 480px) 
         {
-            width: 175px;
+            width: 200px;
             min-width: 100px;
         }
 }
@@ -426,23 +426,14 @@ tbody td {
     border: 1px solid #dee2e6; /* Bordes de las celdas */
 }
 
-/* Media Queries para pantallas pequeñas */
-@media (max-width: 768px) {
-    thead th, tbody td {
-        font-size: 0.9em; /* Reducir tamaño del texto */
-    }
-}
-
-@media (max-width: 576px) {
-    thead th, tbody td {
-        font-size: 0.8em; /* Reducir aún más el tamaño del texto */
-    }
-}
-
 @media (max-width: 480px) {
     .container {
         padding-left: 15px; /* Espacio a la izquierda */
         padding-right: 15px; /* Espacio a la derecha */
+    }
+
+    thead th, tbody td {
+        font-size: 0.8em; /* Reducir aún más el tamaño del texto */
     }
 
     .row {
@@ -489,4 +480,3 @@ tbody td {
         margin-bottom: 10pxx; /* Reduce el espacio entre elementos de lista */
     }
 }
-    

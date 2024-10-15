@@ -74,12 +74,12 @@ body{
 }
 
 #sidebar.expandir{
-    width: 200px;
+    width: 225px;
     min-width: 200px;
 
     @media (max-width: 480px) 
         {
-            width: 175px;
+            width: 200px;
             min-width: 100px;
         }
 }
@@ -212,6 +212,7 @@ a.sidebar-link:hover{
 aside{
     margin: 0;
 }
+
 
 .hero h1{
     color: rgb(255, 255, 255);
@@ -386,9 +387,9 @@ footer img{
 
 .imgbody{
     width: 250px; /* Ajusta el valor según tus necesidades */
-    height: 110px;
+    height: auto;
     border-radius: 3%;
-
+    margin-top: 20px;
     @media (max-width: 480px)
         {
             width: 245px;
@@ -403,11 +404,6 @@ footer img{
     }
 }
 
-.imgbody {
-    width: 215px; /* Asegúrate de que no se desborde */
-    height: auto;    /* Mantiene la relación de aspecto */
-    margin-top: 20px; /* Espacio superior */
-}
 
 .row {
     display: block;
@@ -463,4 +459,7 @@ footer img{
         margin-left: 0; /* Alinea el contenido */
         margin-bottom: 10pxx; /* Reduce el espacio entre elementos de lista */
     }
+}
+
+@media (max-width: 768px) {
 }

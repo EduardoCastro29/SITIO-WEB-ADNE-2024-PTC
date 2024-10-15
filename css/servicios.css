@@ -74,12 +74,12 @@ body{
 }
 
 #sidebar.expandir{
-    width: 200px;
+    width: 225px;
     min-width: 200px;
 
     @media (max-width: 480px) 
         {
-            width: 175px;
+            width: 200px;
             min-width: 100px;
         }
 }
