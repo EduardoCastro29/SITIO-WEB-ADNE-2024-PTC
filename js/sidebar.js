@@ -42,7 +42,7 @@ menu.innerHTML+= `<aside id="sidebar">
                         <a href="requisitos.html" class="sidebar-link">
                             <i class="lni lni-laptop"></i>
                             <span>Requisitos</span>
-                        </a>
+                        </a><hr style="border: 1.5px solid #ffff; margin: 0;">
                         <a href="descarga.html" class="sidebar-link">
                             <i class="lni lni-download"></i>
                             <span>Descargalo</i></span>

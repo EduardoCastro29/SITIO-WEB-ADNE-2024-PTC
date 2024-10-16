@@ -431,7 +431,7 @@ footer img{
 .card-body{
     font-size: 0.8em;
     font-weight: 400;
-    border: 1px solid teal;
+    border: 0.5px solid teal;
     line-height: 20px;
     box-shadow: 100px black;
 
@@ -445,6 +445,32 @@ footer img{
     width: 200px;
     height: 150px;
     object-fit: cover;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .card {
+        width: 75%; /* Ajusta el ancho de la tarjeta */
+        padding: 20px; /* Ajusta el padding */
+        margin-bottom: 20px; /* Ajusta el margen inferior */
+        margin-left: 40px;
+    }
+
+    .cards {
+        font-size: 0.9em; /* Ajusta el tamaño de la fuente */
+        justify-content: center;
+        margin-top: -10%; /* Ajusta el margen superior */
+        margin-left: 20px; /* Ajusta el margen izquierdo */
+    }
+
+    .card-body {
+        font-size: 1.2em; /* Ajusta el tamaño de la fuente */
+    }
+
+    .card-img-top {
+        width: 180px; /* Ajusta el ancho de la imagen */
+        height: 130px; /* Ajusta la altura de la imagen */
+    }
 }
 
 @media (max-width: 480px) {
@@ -499,3 +525,57 @@ footer img{
         margin-bottom: 10px; /* Reduce el espacio entre elementos de lista */
     }
 }
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    thead th, tbody td {
+        font-size: 0.6em;
+    }
+
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .col-sm-10.offset-sm-2.col-lg-12.offset-lg-0 {
+        margin: 0 40px;
+        padding: 0;
+        
+    }
+
+    .col-sm-10.offset-sm-2.col-lg-9.offset-lg-0.order-md-2{
+        margin: 0 40px;
+        padding: 0;
+    }
+
+    .col-sm-10.offset-sm-2.col-lg-12.offset-lg-0.order-md-2 {
+        margin: 0 40px;
+        padding: 0;
+    }
+
+    .col-sm-12.col-lg-3.order-md-1 {
+        margin: 0 15px;
+    }
+
+    .col-sm-12.col-lg-3.order-md-1 img {
+        width: 350px;
+    }
+
+    .col-sm-10.offset-sm-2.col-lg-12.offset-lg-0 hr {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .container p {
+        font-size: 1.2em;
+        line-height: 1.2;
+        text-align: justify;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
+
