@@ -410,7 +410,7 @@ footer img{
     display: block;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
     .container {
         padding-left: 15px;
         padding-right: 15px;
@@ -460,7 +460,7 @@ footer img{
     }
 }
 
-@media (min-width: 400) and (max-width: 480px) {
+@media (min-width: 421) and (max-width: 480px) {
     .container {
         padding-left: 15px; /* Espacio a la izquierda */
         padding-right: 15px; /* Espacio a la derecha */
