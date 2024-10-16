@@ -427,13 +427,14 @@ tbody td {
 }
 
 @media (max-width: 480px) {
+
+    thead th, tbody td {
+        font-size: 0.8em;
+    }
+
     .container {
         padding-left: 15px; /* Espacio a la izquierda */
         padding-right: 15px; /* Espacio a la derecha */
-    }
-
-    thead th, tbody td {
-        font-size: 0.8em; /* Reducir aún más el tamaño del texto */
     }
 
     .row {
@@ -442,29 +443,28 @@ tbody td {
     }
 
     .col-sm-10 {
-        margin-left: 5%; /* Añadir margen a la izquierda para centrar */
-        margin-right: 5%; /* Añadir margen a la derecha para centrar */
-        padding-left: 15px; /* Padding a la izquierda */
-        padding-right: 15px; /* Padding a la derecha */
+        margin: 0 20px;
+        padding: 0;
     }
 
     .col-sm-10.offset-sm-2.col-lg-12.offset-lg-0 {
-        margin: 0; /* Elimina cualquier margen que esté afectando */
-        padding: 0 0 0 37px; /* Elimina padding si es necesario */
+        margin: 0 20px; /* Elimina cualquier margen que esté afectando */
+        padding: 0; /* Elimina padding si es necesario */
     }
+    
 
-    .col-sm-10.offset-sm-2.col-lg-12.offset-lg-0.order-md-2 {
+    .col-sm-10.offset-sm-2.col-lg-9.offset-lg-0.order-md-2 {
         margin: 0 20px; /* Ajusta este valor según sea necesario */
         padding: 0; /* Elimina padding si es necesario */
     }
     
     .col-sm-12.col-lg-3.order-md-1 {
-        margin: 0 20px; /* Ajusta este valor para el espaciado */
+        margin: 0 50px; /* Ajusta este valor para el espaciado */
     }
 
     .col-sm-12.col-lg-3.order-md-1 img{
-        display: flex;
-        justify-content: center;
+        width: 200px;
+
     }
 
     .col-sm-10.offset-sm-2.col-lg-12.offset-lg-0 hr {

@@ -485,31 +485,27 @@ footer img{
     }
 
     .col-sm-10 {
-        margin-left: 5%; /* Añadir margen a la izquierda para centrar */
-        margin-right: 5%; /* Añadir margen a la derecha para centrar */
-        padding-left: 15px; /* Padding a la izquierda */
-        padding-right: 15px; /* Padding a la derecha */
+        margin: 0 20px;
+        padding: 0;
     }
 
     .col-sm-10.offset-sm-2.col-lg-12.offset-lg-0 {
-        margin: 0; /* Elimina cualquier margen que esté afectando */
-        padding: 0 0 0 37px; /* Elimina padding si es necesario */
+        margin: 0 20px; /* Elimina cualquier margen que esté afectando */
+        padding: 0; /* Elimina padding si es necesario */
+    }
+    
+
+    .col-sm-10.offset-sm-2.col-lg-9.offset-lg-0.order-md-2 {
+        margin: 0 20px; /* Ajusta este valor según sea necesario */
+        padding: 0; /* Elimina padding si es necesario */
+    }
+    
+    .col-sm-12.col-lg-2.order-md-1{
+        margin: 0 20px;
     }
 
     .col-sm-12.col-lg-3.order-md-1 img{
-        display: flex;
-        justify-content: center;
-        padding-left: 40px;
-    }
-
-    .col-sm-10.offset-sm-2.col-lg-9.offset-lg-0{
-        margin: 0 10px;
-        padding: 0 0 0 37px;
-    }
-
-    .col-sm-12.col-lg-2.order-md-1{
-        margin: 0 10px;
-        padding: 0 0 0 37px;
+        width: 200px;
     }
 
     .col-sm-10.offset-sm-2.col-lg-12.offset-lg-0 hr {
@@ -522,7 +518,7 @@ footer img{
         line-height: 1.2; /* Reduce el espaciado entre líneas para apretar más */
         text-align: justify; /* Alinea el texto a la izquierda */
         margin-left: 0; /* Alinea el contenido */
-        margin-bottom: 10px; /* Reduce el espacio entre elementos de lista */
+        margin-bottom: 10pxx; /* Reduce el espacio entre elementos de lista */
     }
 }
 

@@ -506,6 +506,40 @@ li {
 /* Estilos para dispositivos móviles */
 @media (max-width: 480px) {
 
+    thead th, tbody td {
+        font-size: 0.8em;
+    }
+
+    .container {
+        padding-left: 15px; /* Espacio a la izquierda */
+        padding-right: 15px; /* Espacio a la derecha */
+    }
+
+    .row {
+        margin-left: 0; /* Eliminar margen izquierdo */
+        margin-right: 0; /* Eliminar margen derecho */
+    }
+
+    .col-sm-10 {
+        margin: 0 20px;
+        padding: 0;
+    }
+
+    .col-sm-10.offset-sm-2.col-lg-12.offset-lg-0 {
+        margin: 0 20px; /* Elimina cualquier margen que esté afectando */
+        padding: 0; /* Elimina padding si es necesario */
+    }
+
+    .col-sm-12.col-lg-3.order-md-1 img{
+        width: 200px;
+
+    }
+
+    .col-sm-10.offset-sm-2.col-lg-12.offset-lg-0 hr {
+        width: 100%; /* Ajusta el ancho del hr según sea necesario */
+        margin: 10px 0; /* Espaciado arriba y abajo */
+    }
+    
     .container-listas {
         max-width: 68.5%; /* Limita el ancho aún más para un ajuste más apretado */
         margin: 0 auto; /* Centra el contenedor */
