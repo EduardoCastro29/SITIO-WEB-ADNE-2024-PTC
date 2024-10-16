@@ -528,7 +528,6 @@ li {
     .container-listas li {
         font-size: 1.2em; /* Mantiene el tamaño del texto */
         line-height: 1.2; /* Reduce el espaciado entre líneas para apretar más */
-        text-align: justify; /* Alinea el texto a la izquierda */
         margin-left: 0; /* Alinea el contenido */
         margin-bottom: 10pxx; /* Reduce el espacio entre elementos de lista */
     }
