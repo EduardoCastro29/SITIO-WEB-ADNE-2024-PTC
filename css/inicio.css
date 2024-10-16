@@ -414,6 +414,7 @@ footer img{
     .container {
         padding-left: 15px; /* Espacio a la izquierda */
         padding-right: 15px; /* Espacio a la derecha */
+        box-sizing: border-box; /* Incluye padding en el ancho total */
     }
 
     .row {
@@ -422,45 +423,35 @@ footer img{
     }
 
     .col-sm-10 {
-        margin: 0 20px;
-        padding: 0;
+        margin: 0; /* Elimina márgenes para evitar desbordamientos */
+        padding: 0; /* Elimina padding si es necesario */
+        width: 100%; /* Asegúrate de que ocupe el 100% del contenedor */
     }
 
-    .col-sm-10.offset-sm-2.col-lg-12.offset-lg-0 {
-        margin: 0 20px; /* Elimina cualquier margen que esté afectando */
-        padding: 0; /* Elimina padding si es necesario */
-    }
-    
-
-    .col-sm-10.offset-sm-2.col-lg-9.offset-lg-0.order-md-2 {
-        margin: 0 20px; /* Ajusta este valor según sea necesario */
-        padding: 0; /* Elimina padding si es necesario */
-    }
-    
     .col-sm-12.col-lg-3.order-md-1 {
-        margin: 0 50px; /* Ajusta este valor para el espaciado */
-    }
-
-    .col-sm-12.col-lg-3.order-md-1 img{
-        width: 200px;
-
-    }
-
-    .col-sm-10.offset-sm-2.col-lg-12.offset-lg-0 hr {
-        width: 100%; /* Ajusta el ancho del hr según sea necesario */
-        margin: 10px 0; /* Espaciado arriba y abajo */
+        margin: 0; /* Elimina margen */
+        padding: 0; /* Elimina padding */
     }
 
     .container p {
-        font-size: 1.2em; /* Mantiene el tamaño del texto */
-        line-height: 1.2; /* Reduce el espaciado entre líneas para apretar más */
+        font-size: 1em; /* Ajusta el tamaño del texto */
+        line-height: 1.4; /* Aumenta el espaciado entre líneas */
         text-align: justify; /* Alinea el texto a la izquierda */
-        margin-left: 0; /* Alinea el contenido */
-        margin-bottom: 10pxx; /* Reduce el espacio entre elementos de lista */
+        margin: 0; /* Elimina márgenes */
+        padding: 10px 0; /* Agrega un poco de padding vertical */
+    }
+
+    .col-sm-10.offset-sm-2.col-lg-12.offset-lg-0 hr {
+        width: 100%; /* Ajusta el ancho del hr */
+        margin: 10px 0; /* Espaciado arriba y abajo */
+    }
+
+    .imgbody{
+        width: 250px;
     }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 1280px) {
     .container {
         padding-left: 15px;
         padding-right: 15px;
@@ -507,7 +498,5 @@ footer img{
     }
     .imgbody {
         width: 230px; /* Ajuste para pantallas con máximo 768px */
-        display: flex;
-        justify-content: center;
     }
 }
