@@ -413,12 +413,11 @@ footer img{
     text-align: start;
     padding: 5px;
     box-shadow: 0px 3px 5px rgb(43, 43, 43);
-    transition: 0.5s;
 }
 
 .cards{
         color: rgb(14, 48, 56);
-        padding: 7%;
+        padding: 5%;
         margin-top: -150px;
         @media (max-width: 480px) 
             {
@@ -448,32 +447,6 @@ footer img{
     object-fit: cover;
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
-
-    .card {
-        width: 75%; /* Ajusta el ancho de la tarjeta */
-        padding: 20px; /* Ajusta el padding */
-        margin-bottom: 20px; /* Ajusta el margen inferior */
-        margin-left: 40px;
-    }
-
-    .cards {
-        font-size: 0.9em; /* Ajusta el tamaño de la fuente */
-        justify-content: center;
-        margin-top: -10%; /* Ajusta el margen superior */
-        margin-left: 20px; /* Ajusta el margen izquierdo */
-    }
-
-    .card-body {
-        font-size: 1.2em; /* Ajusta el tamaño de la fuente */
-    }
-
-    .card-img-top {
-        width: 180px; /* Ajusta el ancho de la imagen */
-        height: 130px; /* Ajusta la altura de la imagen */
-    }
-}
-
 @media (max-width: 480px) {
     .container {
         padding-left: 15px; /* Espacio a la izquierda */
@@ -496,16 +469,16 @@ footer img{
     }
     
 
-    .col-sm-10.offset-sm-2.col-lg-9.offset-lg-0.order-md-2 {
+    .col-sm-10.offset-sm-2.col-lg-9.offset-lg-0.order-md-1 {
         margin: 0 20px; /* Ajusta este valor según sea necesario */
         padding: 0; /* Elimina padding si es necesario */
     }
     
-    .col-sm-12.col-lg-2.order-md-1{
+    .col-sm-12.col-lg-2.order-md-2{
         margin: 0 20px;
     }
 
-    .col-sm-12.col-lg-3.order-md-1 img{
+    .col-sm-12.col-lg-3.order-md-2 img{
         width: 200px;
     }
 
@@ -523,7 +496,7 @@ footer img{
     }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 900px) {
     .container {
         padding-left: 15px;
         padding-right: 15px;
@@ -539,40 +512,52 @@ footer img{
     }
 
     .col-sm-10.offset-sm-2.col-lg-12.offset-lg-0 {
-        margin: 0 40px;
-        padding: 0;
-        
-    }
-
-    .col-sm-10.offset-sm-2.col-lg-9.offset-lg-0.order-md-2{
-        margin: 0 40px;
+        margin: 0 45px;
         padding: 0;
     }
 
-    .col-sm-10.offset-sm-2.col-lg-12.offset-lg-0.order-md-2 {
-        margin: 0 40px;
+    .col-sm-10.offset-sm-2.col-lg-9.offset-lg-0.order-md-1 {
+        margin: 0 45px;
         padding: 0;
     }
 
-    .col-sm-12.col-lg-3.order-md-1 {
-        margin: 0 15px;
+    .col-sm-12.col-lg-3.order-md-2 {
+        margin: 0 140px;
     }
 
-    .col-sm-12.col-lg-3.order-md-1 img {
-        width: 350px;
-    }
-
-    .col-sm-10.offset-sm-2.col-lg-12.offset-lg-0 hr {
-        width: 100%;
-        margin: 10px 0;
+    .col-sm-12.col-lg-3.order-md-2 img {
+        width: 300px;
     }
 
     .container p {
         font-size: 1.2em;
         line-height: 1.2;
-        text-align: justify;
         margin-left: 0;
         margin-bottom: 10px;
     }
+
+    .card {
+        width: 60%; /* Ajusta el ancho de la tarjeta */
+        padding: 20px; /* Ajusta el padding */
+        margin-bottom: 20px; /* Ajusta el margen inferior */
+        margin-left: 75px;
+    }
+
+    .cards {
+        font-size: 0.9em; /* Ajusta el tamaño de la fuente */
+        justify-content: center;
+        margin-top: -10%; /* Ajusta el margen superior */
+        margin-left: 20px; /* Ajusta el margen izquierdo */
+    }
+
+    .card-body {
+        font-size: 1.2em; /* Ajusta el tamaño de la fuente */
+    }
+
+    .card-img-top {
+        width: 180px; /* Ajusta el ancho de la imagen */
+        height: 130px; /* Ajusta la altura de la imagen */
+    }
 }
+
 
